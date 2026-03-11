@@ -44,7 +44,7 @@ export default function Home() {
           {/* Episode tag */}
           <div className="mt-16 flex items-center gap-3 text-white/40 text-sm">
             <span className="w-2 h-2 rounded-full bg-wf-red animate-pulse" />
-            Season 1 — 10 Episodes — Coming Q3 2026
+            Season 1 — 10 Episodes — 5 Factories Confirmed — Filming Q2 2026
           </div>
         </div>
       </section>
@@ -143,15 +143,14 @@ export default function Home() {
           {/* Split 1 — Production Line */}
           <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16 mb-20">
             <div className="lg:w-1/2">
-              <div className="aspect-[4/3] rounded-3xl bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center overflow-hidden">
-                <div className="text-center p-8">
-                  <div className="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                    </svg>
-                  </div>
-                  <p className="text-white/40 text-sm font-medium tracking-wider uppercase">Episode Preview</p>
-                  <p className="text-white/20 text-xs mt-1">Production Line Footage</p>
+              <div className="aspect-[4/3] rounded-3xl overflow-hidden relative group">
+                <img src="./episodes/image2.jpg" alt="Inside an auto parts factory — CNC machining and quality inspection" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur-sm text-white text-xs font-medium">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                    Filming Scheduled
+                  </span>
                 </div>
               </div>
             </div>
@@ -170,15 +169,14 @@ export default function Home() {
           {/* Split 2 — Craftsmanship (reversed) */}
           <div className="flex flex-col lg:flex-row-reverse items-center gap-10 lg:gap-16 mb-20">
             <div className="lg:w-1/2">
-              <div className="aspect-[4/3] rounded-3xl bg-gradient-to-br from-amber-900 to-amber-950 flex items-center justify-center overflow-hidden">
-                <div className="text-center p-8">
-                  <div className="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
-                    </svg>
-                  </div>
-                  <p className="text-white/40 text-sm font-medium tracking-wider uppercase">Episode Preview</p>
-                  <p className="text-white/20 text-xs mt-1">Craftsmanship Close-Up</p>
+              <div className="aspect-[4/3] rounded-3xl overflow-hidden relative group">
+                <img src="./episodes/image3.jpg" alt="Silicone moulding production — precision manufacturing" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur-sm text-white text-xs font-medium">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                    Filming Scheduled
+                  </span>
                 </div>
               </div>
             </div>
@@ -197,15 +195,14 @@ export default function Home() {
           {/* Split 3 — The Story */}
           <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
             <div className="lg:w-1/2">
-              <div className="aspect-[4/3] rounded-3xl bg-gradient-to-br from-wf-text to-slate-800 flex items-center justify-center overflow-hidden">
-                <div className="text-center p-8">
-                  <div className="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
-                    </svg>
-                  </div>
-                  <p className="text-white/40 text-sm font-medium tracking-wider uppercase">Episode Preview</p>
-                  <p className="text-white/20 text-xs mt-1">Factory Owner Interview</p>
+              <div className="aspect-[4/3] rounded-3xl overflow-hidden relative group">
+                <img src="./episodes/image1.jpg" alt="Factory floor visit — cycling apparel production" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur-sm text-white text-xs font-medium">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                    Pre-Production
+                  </span>
                 </div>
               </div>
             </div>
@@ -301,42 +298,83 @@ export default function Home() {
       </section>
 
       {/* ─── SEASON 1 PREVIEW ─── */}
-      <section id="season1" className="bg-wf-bg py-16 lg:py-24">
+      <section id="season1" className="bg-wf-text py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <p className="text-wf-red font-medium text-sm tracking-widest uppercase mb-4">Coming Q3 2026</p>
-            <h2 className="text-3xl md:text-4xl font-semibold text-wf-text -tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-semibold text-white -tracking-tight">
               Season 1: 10 Factories. 10 Stories.
             </h2>
-            <p className="text-wf-text-secondary mt-4 max-w-2xl mx-auto text-lg">
-              We&apos;re heading into the heart of China&apos;s manufacturing regions to film the factories behind the world&apos;s products.
+            <p className="text-white/50 mt-4 max-w-2xl mx-auto text-lg">
+              Our crew is heading into China&apos;s manufacturing heartland. Here&apos;s what we&apos;re filming.
             </p>
           </div>
 
-          {/* Episode Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          {/* Featured Episodes — photo cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
             {[
-              { num: "01", category: "Cycling Apparel", region: "Guangzhou" },
-              { num: "02", category: "Consumer Electronics", region: "Shenzhen" },
-              { num: "03", category: "Auto Parts", region: "Ningbo" },
-              { num: "04", category: "Home & Living", region: "Yiwu" },
-              { num: "05", category: "Industrial Equipment", region: "Foshan" },
-              { num: "06", category: "Beauty & Personal Care", region: "Guangzhou" },
-              { num: "07", category: "Textiles & Fabric", region: "Shaoxing" },
-              { num: "08", category: "Toys & Leisure", region: "Shantou" },
-              { num: "09", category: "LED & Lighting", region: "Zhongshan" },
-              { num: "10", category: "TBA", region: "Coming Soon" },
+              { num: "01", category: "Cycling Apparel", region: "Guangzhou", image: "./episodes/image1.jpg", status: "in-production", desc: "From lycra rolls to race-ready kits — inside one of South China\u2019s biggest cycling gear factories." },
+              { num: "02", category: "Auto & Motorcycle Parts", region: "Chongqing", image: "./episodes/image2.jpg", status: "in-production", desc: "CNC precision at scale. A 20-year family operation stamping parts for 40+ countries." },
+              { num: "03", category: "Silicone Intimates", region: "Dongguan", image: "./episodes/image3.jpg", status: "in-production", desc: "The factory behind a product most people never think about being manufactured." },
+              { num: "04", category: "Custom Apparel (POD)", region: "Guangzhou", image: "./episodes/image4.jpg", status: "in-production", desc: "Print-on-demand at industrial speed. 10,000 custom pieces shipped per day." },
+              { num: "05", category: "Art & Craft Kits", region: "Xiamen", image: "./episodes/image5.jpg", status: "in-production", desc: "Where digital oil paintings go from pixel to canvas — and ship to 60 countries." },
+              { num: "06", category: "Consumer Electronics", region: "Shenzhen", image: null, status: "scouting", desc: "Shenzhen\u2019s hardware strip. PCBs, injection moulds, and the speed of Huaqiangbei." },
             ].map((ep) => (
-              <div key={ep.num} className="rounded-2xl border border-wf-border bg-wf-bg-card p-5 text-center card-hover">
-                <p className="text-3xl font-semibold text-wf-red/20 mb-2">{ep.num}</p>
-                <p className="text-sm font-semibold text-wf-text">{ep.category}</p>
-                <p className="text-xs text-wf-text-muted mt-1">{ep.region}</p>
+              <a key={ep.num} href="#signup" className="group relative rounded-2xl overflow-hidden aspect-[4/3] block episode-card">
+                {ep.image ? (
+                  <img src={ep.image} alt={ep.category} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                ) : (
+                  <div className="absolute inset-0 bg-gradient-to-br from-slate-700 to-slate-900" />
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                <div className="absolute top-3 left-3">
+                  <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full backdrop-blur-sm text-[11px] font-medium ${
+                    ep.status === "in-production"
+                      ? "bg-emerald-500/20 text-emerald-300"
+                      : "bg-amber-500/20 text-amber-300"
+                  }`}>
+                    <span className={`w-1.5 h-1.5 rounded-full animate-pulse ${
+                      ep.status === "in-production" ? "bg-emerald-400" : "bg-amber-400"
+                    }`} />
+                    {ep.status === "in-production" ? "In Production" : "Scouting"}
+                  </span>
+                </div>
+                <div className="absolute top-3 right-3">
+                  <span className="text-white/30 text-2xl font-semibold">{ep.num}</span>
+                </div>
+                <div className="absolute bottom-0 left-0 right-0 p-4">
+                  <p className="text-white font-semibold text-base">{ep.category}</p>
+                  <p className="text-white/50 text-xs mt-0.5">{ep.region}</p>
+                  <p className="text-white/60 text-xs mt-2 leading-relaxed line-clamp-2">{ep.desc}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+
+          {/* Remaining episodes — compact row */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {[
+              { num: "07", category: "Home & Kitchen", region: "Yiwu", status: "scouting" },
+              { num: "08", category: "LED & Lighting", region: "Zhongshan", status: "scouting" },
+              { num: "09", category: "Beauty & Personal Care", region: "Guangzhou", status: "scouting" },
+              { num: "10", category: "TBA", region: "To Be Announced", status: "tba" },
+            ].map((ep) => (
+              <div key={ep.num} className="rounded-xl border border-white/10 bg-white/5 p-4 text-center">
+                <p className="text-2xl font-semibold text-white/15 mb-1.5">{ep.num}</p>
+                <p className="text-sm font-medium text-white/70">{ep.category}</p>
+                <p className="text-xs text-white/40 mt-0.5">{ep.region}</p>
+                {ep.status !== "tba" && (
+                  <span className="inline-flex items-center gap-1 mt-2 text-[10px] text-amber-300/70">
+                    <span className="w-1 h-1 rounded-full bg-amber-400/60" />
+                    Scouting
+                  </span>
+                )}
               </div>
             ))}
           </div>
 
-          <p className="text-center text-wf-text-muted text-sm mt-8">
-            Filming begins Q2 2026. Categories and regions are subject to change.
+          <p className="text-center text-white/30 text-sm mt-10">
+            5 factories confirmed. Filming begins Q2 2026 post-Canton Fair.
           </p>
         </div>
       </section>
