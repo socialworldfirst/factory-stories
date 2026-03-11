@@ -1,5 +1,10 @@
-:HL["./_next/static/chunks/0424147815b85935.css","style"]
+:HL["./_next/static/chunks/f4bf7bdb4c9492b8.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap","style"]
+:HL["./episodes/image2.jpg","image"]
+:HL["./episodes/image3.jpg","image"]
+:HL["./episodes/image1.jpg","image"]
 :HL["https://mdn.marmot-cloud.com/worldfirst/sites/15/2026/02/20260209154944733.webp","image"]
+:HL["./episodes/image4.jpg","image"]
+:HL["./episodes/image5.jpg","image"]
 :HL["https://cdn.brandfetch.io/idQI0qYhhb/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1768794155662","image"]
-0:{"buildId":"5k5qyc7FEG-vMyzaQDSt-","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"gbgJ8tJMsDAKlTrM2KON1","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
