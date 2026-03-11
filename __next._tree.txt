@@ -1,4 +1,4 @@
-:HL["./_next/static/chunks/485ae347f2f330c4.css","style"]
+:HL["./_next/static/chunks/00097dc56520fb71.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap","style"]
 :HL["./episodes/image2.jpg","image"]
 :HL["./episodes/image3.jpg","image"]
@@ -7,4 +7,4 @@
 :HL["./episodes/image4.jpg","image"]
 :HL["./episodes/image5.jpg","image"]
 :HL["https://cdn.brandfetch.io/idQI0qYhhb/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1768794155662","image"]
-0:{"buildId":"TSqwzGiDe-TIejqm-zrxU","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"7JlLlSwuw2h7mL1vHKLRv","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
